@@ -1,0 +1,69 @@
+/* Global Background */
+body {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 📦 Card Style for Forms & Charts */
+.bg-white {
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* 🏷️ Headings */
+h3.text-center, h5.text-center {
+  color: #2d3748;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+/* 🖼️ Logo */
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100px;
+}
+
+/* ✍️ Inputs */
+input, select {
+  border-radius: 8px !important;
+  padding: 10px;
+  font-size: 0.95rem;
+}
+
+/* ✅ Shared Button Style */
+button, .btn {
+  background-color: #5a67d8;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #4c51bf;
+}
+
+/* 📊 Charts */
+canvas {
+  margin-top: 15px;
+  background-color: #f8f8ff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* 📱 Responsive Cards */
+.container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .container .col-md-6, .bg-white {
+    padding: 2rem 1.5rem !important;
+  }
+}
